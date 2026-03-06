@@ -1,8 +1,13 @@
-## AI Interview
-100 users have reached to you with a problem that they struggle with- cluttered desktops (represented by this repository).
-Please note that you should not use AI to solve tasks below, but rather we want to see your thinking process and how you get to the solution.
+# AI Interview
+100 users have reached out to you with a problem: they struggle with cluttered desktops (represented by this repository).
+
+## Guidelines
+Please note that the tasks below are designed to evaluate your problem-solving skills, so you should not use AI tools to decide on and create the solution.
 
 ### Tasks
+1. [ ] Create a solution that will organize files into a user-friendly structure of directories. The structure should be placed under the "output" directory. Files should be grouped by type (e.g., images, documents, etc.), and the original files should be moved with no leftovers allowed.
+2. [ ] Ensure proper error handling for edge cases, such as duplicate file names, empty directories, or permission issues.
+3. [ ] The solution will be evaluated based on code efficiency, readability, scalability, and compliance with the specified structure.
 
-- [ ] Create a solution that will organise files into user-friendly structure of directories. The structure should be set under "output" directory. The original files should be moved, no leftovers are allowed.
-- [ ] Spawn multiple subagents that would analyze separate directories- one for each, and achieve the same task for larger data structures.
+## Follow-up
+1. [ ] Update the solution to support nested folder structure.
